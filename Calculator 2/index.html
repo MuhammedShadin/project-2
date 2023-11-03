@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main-body">
+        <div class="container">
+            <div id="output-bar">
+                <input type="text" id="listing">
+            </div>
+            <button onclick="erase()" class="btno">CLR</button>
+            <div class="keys">  
+                <div class="row">
+                    <button onclick="buttonClick(7)" class="btn" id="bttn">7</button>
+                    <button onclick="buttonClick(8)" class="btn" id="bttn1">8</button>
+                    <button onclick="buttonClick(9)" class="btn" id="bttn2">9</button>
+                    <button onclick="buttonClick('/')" class="btn" id="bttn3">/</button>
+                </div>
+                <div class="row">
+                    <button onclick="buttonClick(4)" class="btn" id="bttn4">4</button>
+                    <button onclick="buttonClick(5)" class="btn" id="bttn5">5</button>
+                    <button onclick="buttonClick(6)" class="btn" id="bttn6">6</button>
+                    <button onclick="buttonClick('*')" class="btn" id="bttn7">X</button>
+                </div>
+                <div class="row">
+                    <button onclick="buttonClick(1)" class="btn" id="bttn8">1</button>
+                    <button onclick="buttonClick(2)" class="btn" id="bttn9">2</button>
+                    <button onclick="buttonClick(3)" class="btn" id="bttn10">3</button>
+                    <button onclick="buttonClick('-')" class="btn" id="bttn11">-</button>
+                </div>
+                <div class="row">
+                    <button onclick="buttonClick('.')" class="btn" id="bttn12">.</button>
+                    <button onclick="buttonClick(0)" class="btn" id="bttn13">0</button>
+                    <button onclick="buttonClick('+')" class="btn" id="bttn14">+</button>
+                    <button onclick="buttonClicked('=')" class="btn" id="bttn15">=</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <script>
+        $(document).ready(function(){
+            $("#bttn").mouseenter(function(){
+                $(this).css({"background":"yellow"})
+            }) 
+            $("#bttn1").mouseenter(function(){
+                $(this).css({"background":"yellow"})
+            })
+            $("#bttn2").mouseenter(function(){
+                $(this).css({"background":"yellow"})
+            })
+            $("#bttn3").mouseenter(function(){
+                $(this).css({"background":"yellow"})
+            })
+            $("#bttn4").mouseenter(function(){
+                $(this).css({"background":"yellow"})
+            })
+            $("#bttn5").mouseenter(function(){
+                $(this).css({"background":"yellow"})
+            })
+            $("#bttn6").mouseenter(function(){
+                $(this).css({"background":"yellow"})
+            })
+            $("#bttn7").mouseenter(function(){
+                $(this).css({"background":"yellow"})
+            })
+            $("#bttn8").mouseenter(function(){
+                $(this).css({"background":"yellow"})
+            })
+            $("#bttn9").mouseenter(function(){
+                $(this).css({"background":"yellow"})
+            })
+            $("#bttn10").mouseenter(function(){
+                $(this).css({"background":"yellow"})
+            })
+            $("#bttn11").mouseenter(function(){
+                $(this).css({"background":"yellow"})
+            })
+            $("#bttn12").mouseenter(function(){
+                $(this).css({"background":"yellow"})
+            })
+            $("#bttn13").mouseenter(function(){
+                $(this).css({"background":"yellow"})
+            })
+            $("#bttn14").mouseenter(function(){
+                $(this).css({"background":"yellow"})
+            })
+            $("#bttn15").mouseenter(function(){
+                $(this).css({"background":"yellow"})
+            })
+        })
+        </script>
+    </div>
+</body>
+</html>
